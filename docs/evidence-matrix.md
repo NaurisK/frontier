@@ -2,7 +2,6 @@
 
 This matrix fixes the evidence boundary before the canonical JSON is rewritten. It records exactly which local Assessment 1 process page or public source page supports each intended record, claim, relation, dispute and visual. External artefact images are captured directly from the referenced websites; the two Assessment 1 images document the project's own method and anonymised netnography. A dated capture proves only what was visible when captured; it does not prove an artefact's original publication date or a direct historical influence.
 
-The local source PDF is read-only: `C:\Users\44754\.codex\.chatgpt-projects\g-p-6a500c41a3fc8191aedb1c5c2a4e5e34\sources\M7004R_portfolio_25000150867.pdf`.
 
 | Matrix ID | Kind | Product ID | Archive IDs | Source | Capture | Alt / description | Credit | Claim / use | Evidence status | Qualification |
 |---|---|---|---|---|---|---|---|---|---|---|
