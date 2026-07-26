@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "lineages": [
+    {
+      "id": "micro-macro",
+      "name": "Micro / Macro",
+      "summary": "A long-standing competitive-game vocabulary that distinguishes local execution and unit control from broader economic and strategic control.",
+      "makes_visible": ["moment-to-moment mechanical execution", "unit control and multitasking", "economy and long-horizon strategy"],
+      "simplifies": ["adaptation under pressure", "tempo and timing", "psychological and social dimensions of play"],
+      "provenance": [
+        {
+          "claim": "A dated TeamLiquid community guide uses Micro and Macro as teachable StarCraft skill categories.",
+          "relation_type": "earlier_documented_use",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-MICRO-MACRO-TL"]
+        }
+      ],
+      "connections": [
+        {
+          "target_id": "surnex-playertype",
+          "relation_type": "community_precedent",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-MICRO-MACRO-TL", "ARC-SURNEX-DIAGRAM"],
+          "claim": "Micro and Macro are documented community vocabularies that predate Surnex's later cross-genre synthesis.",
+          "qualification": "Earlier use is established; direct influence on Surnex and a definitive origin are not."
+        }
+      ],
+      "version_history": [
+        {
+          "label": "Earlier documented community use in a TeamLiquid StarCraft guide, dated 2009-11-02",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-MICRO-MACRO-TL"]
+        },
+        {
+          "label": "Later cross-genre Micro, Meso and Macro synthesis documented in the Surnex corpus",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-SURNEX-DIAGRAM"]
+        }
+      ],
+      "dispute_ids": ["dispute-micro-membership", "dispute-personal-taste"]
+    },
+    {
+      "id": "yomi-reads",
+      "name": "Yomi / Reads",
+      "summary": "A competitive vocabulary for anticipating an opponent, recognising layers of intention and acting on a read under uncertainty.",
+      "makes_visible": ["prediction and opponent modelling", "conditioning and layered mind games", "risk-reward decisions"],
+      "simplifies": ["execution and precision", "spacing and timing", "match-up-specific knowledge"],
+      "provenance": [
+        {
+          "claim": "Sirlin's Playing to Win documents Yomi as a vocabulary for reading and predicting an opponent.",
+          "relation_type": "earlier_documented_use",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-YOMI-SIRLIN"]
+        }
+      ],
+      "connections": [
+        {
+          "target_id": "surnex-playertype",
+          "relation_type": "conceptual_precedent",
+          "evidence_status": "interpretive",
+          "archive_ids": ["ARC-YOMI-SIRLIN", "ARC-SURNEX-DIAGRAM"],
+          "claim": "Yomi offers an earlier vocabulary for prediction that helps interpret the knowledge and mind-games territory of the Surnex model.",
+          "qualification": "This is a conceptual comparison by the project author; no direct line of influence is claimed."
+        }
+      ],
+      "version_history": [
+        {
+          "label": "Earlier documented Yomi explanation in Playing to Win",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-YOMI-SIRLIN"]
+        },
+        {
+          "label": "Conceptual comparison with the middle layer of the Surnex framework",
+          "evidence_status": "interpretive",
+          "archive_ids": ["ARC-YOMI-SIRLIN", "ARC-SURNEX-DIAGRAM"]
+        }
+      ],
+      "dispute_ids": ["dispute-knowledge-skill"]
+    },
+    {
+      "id": "surnex-playertype",
+      "name": "Surnex to Player Type",
+      "summary": "A contemporary cross-genre Micro, Meso and Macro synthesis that was later remediated as an interactive site, making circulation and adaptation visible without proving a complete genealogy.",
+      "makes_visible": ["cross-genre comparison", "overlapping categories of competitive skill", "framework circulation from diagram to interface"],
+      "simplifies": ["variation by role, rank, mode and patch", "criteria behind exact placements", "social, embodied and contextual dimensions of skill"],
+      "provenance": [
+        {
+          "claim": "Surnex applies Micro, Meso and Macro categories across a set of competitive games in a cross-genre diagram.",
+          "relation_type": "community_precedent",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-SURNEX-DIAGRAM"]
+        },
+        {
+          "claim": "Player Type explicitly builds from Surnex's original set and adds custom games and its own archetype labels.",
+          "relation_type": "later_adaptation",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-PLAYERTYPE-METHOD", "ARC-SURNEX-DIAGRAM"]
+        }
+      ],
+      "connections": [
+        {
+          "target_id": "micro-macro",
+          "relation_type": "community_precedent",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-MICRO-MACRO-TL", "ARC-SURNEX-DIAGRAM"],
+          "claim": "Earlier Micro and Macro vocabulary provides a documented precedent to the later three-part synthesis.",
+          "qualification": "Chronology and vocabulary are documented; direct influence and definitive origin are not."
+        },
+        {
+          "target_id": "yomi-reads",
+          "relation_type": "conceptual_precedent",
+          "evidence_status": "interpretive",
+          "archive_ids": ["ARC-YOMI-SIRLIN", "ARC-SURNEX-DIAGRAM"],
+          "claim": "Yomi is conceptually adjacent to the framework's account of knowledge and mind games.",
+          "qualification": "This is an interpretive comparison, not evidence of direct influence."
+        }
+      ],
+      "version_history": [
+        {
+          "label": "Surnex cross-genre diagram documented in the Assessment 1 corpus",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-SURNEX-DIAGRAM"]
+        },
+        {
+          "label": "Player Type interactive adaptation documented by its methodology page",
+          "evidence_status": "documented",
+          "archive_ids": ["ARC-PLAYERTYPE-METHOD", "ARC-SURNEX-DIAGRAM"]
+        }
+      ],
+      "dispute_ids": ["dispute-micro-membership", "dispute-knowledge-skill", "dispute-extension", "dispute-placement-criteria"]
+    }
+  ]
+}

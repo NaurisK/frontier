@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "formats": [
+    {
+      "id": "taxonomy-diagram",
+      "name": "Taxonomy diagram",
+      "summary": "The selected Surnex Venn diagram arranges competitive games within overlapping Micro, Meso and Macro regions so a cross-genre classification can be inspected and debated.",
+      "archive_ids": ["ARC-SURNEX-DIAGRAM"],
+      "makes_visible": ["cross-genre comparison", "overlap between skill categories", "a stable object for discussion"],
+      "simplifies": ["criteria behind exact placements", "variation within games and roles", "uncertainty and change over time"],
+      "cross_game": "A diagram can make relationships portable across communities, but its clear boundaries can appear more settled than the situated and disputed judgements behind them.",
+      "related_lineage_ids": ["micro-macro", "yomi-reads", "surnex-playertype"]
+    },
+    {
+      "id": "frame-data",
+      "name": "Frame data",
+      "summary": "The selected Dustloop table turns move timing into aligned values that can be compared and used to reason about punish windows.",
+      "archive_ids": ["ARC-DUSTLOOP-FRAME-DATA"],
+      "makes_visible": ["startup, active and recovery timing", "frame advantage", "comparative punish windows"],
+      "simplifies": ["spacing and rhythm", "pressure and online conditions", "practical execution"],
+      "cross_game": "Timed comparison recurs across action-oriented games, but this exact numerical grammar depends on what an engine and community choose to expose.",
+      "related_lineage_ids": ["yomi-reads"]
+    },
+    {
+      "id": "build-order",
+      "name": "Build order",
+      "summary": "The selected Spawning Tool page externalises a StarCraft II opening as a timed sequence of structures, units and actions.",
+      "archive_ids": ["ARC-SPAWNING-TOOL-BUILD"],
+      "makes_visible": ["action sequence", "economy and production milestones", "planned progression"],
+      "simplifies": ["adaptation to an opponent", "deception and scouting uncertainty", "disruption and recovery"],
+      "cross_game": "Ordered plans resemble opening theory across strategy games, while their apparent script cannot show how much situated play must depart from the plan.",
+      "related_lineage_ids": ["micro-macro"]
+    },
+    {
+      "id": "callout-map",
+      "name": "Callout map",
+      "summary": "The selected Total CS Mirage map labels locations so a team can share a compact spatial vocabulary.",
+      "archive_ids": ["ARC-TOTAL-CS-MIRAGE"],
+      "makes_visible": ["named spatial conventions", "positioning vocabulary", "shared reference points"],
+      "simplifies": ["timing and movement", "intent and tactical context", "communication quality in use"],
+      "cross_game": "Named locations travel across team-based spatial games, but a fixed map cannot show when, why or how a position matters during play.",
+      "related_lineage_ids": ["surnex-playertype"]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "corpus": {
+    "capture_window": "June–July 2026",
+    "item_count": 62,
+    "platform_count": 7,
+    "selection_criteria": [
+      "Public sources available for ethical capture and attribution",
+      "Artefacts that make a competitive-skill dimension inspectable through diagrams, tables, maps or interfaces",
+      "Community discussion that applies, disputes, personalises, extends or simplifies a framework",
+      "Dated captures that keep source versions and the project's collection moment distinguishable"
+    ],
+    "exclusion_criteria": [
+      "Private or login-walled material",
+      "Artefacts without traceable provenance",
+      "Discussion that could not be anonymised or paraphrased without losing its meaning",
+      "Games and frameworks outside the purposive sample"
+    ],
+    "reflexive_note": "Frontier renders a selected subset of the wider Assessment 1 archive. The project author's collection, capture and classification choices shape the histories and relationships that appear; this is a positioned corpus rather than a neutral or exhaustive record.",
+    "provenance_fields_tracked": [
+      "creator",
+      "title",
+      "platform",
+      "source_type",
+      "source_date",
+      "capture_date",
+      "source_url",
+      "capture_path",
+      "credit",
+      "qualification_note"
+    ]
+  },
+  "records": [
+    {
+      "id": "ARC-SURNEX-DIAGRAM",
+      "title": "Micro, Meso and Macro cross-genre diagram",
+      "creator": "Surnex",
+      "platform": "YouTube",
+      "source_type": "video and diagram",
+      "source_date": null,
+      "capture_date": "2026-07-26",
+      "source_url": "https://youtu.be/NgHvdCcmQ4o",
+      "capture_path": "assets/captures/surnex-diagram.png",
+      "alt": "Direct YouTube video-frame capture showing Surnex's cross-genre Micro, Meso and Macro diagram populated with competitive games.",
+      "credit": "Surnex; captured from the referenced YouTube video page",
+      "qualification_note": "An exact publication date was not recovered for this archive record. The direct YouTube capture documents the diagram as presented in the referenced video; it does not establish that Surnex originated the underlying vocabulary or that the categories are objective measurements."
+    },
+    {
+      "id": "ARC-PLAYERTYPE-METHOD",
+      "title": "Player Type methodology",
+      "creator": "Player Type",
+      "platform": "Player Type",
+      "source_type": "interactive website methodology page",
+      "source_date": null,
+      "capture_date": "2026-07-26",
+      "source_url": "https://playertype.gg/methodology",
+      "capture_path": "assets/captures/player-type-methodology.png",
+      "alt": "Player Type methodology page explaining its adaptation of Surnex's game dataset and its custom additions.",
+      "credit": "Player Type",
+      "qualification_note": "The methodology page did not provide a recoverable publication date in this corpus. This direct live-page capture describes the site's method and version at the capture date; it does not present an objective measurement of player skill."
+    },
+    {
+      "id": "ARC-YOMI-SIRLIN",
+      "title": "Yomi in Playing to Win",
+      "creator": "David Sirlin",
+      "platform": "Sirlin.net",
+      "source_type": "book chapter published online",
+      "source_date": "2014-08-03",
+      "capture_date": "2026-07-26",
+      "source_url": "https://www.sirlin.net/ptw-book/7-spies-of-the-mind",
+      "capture_path": "assets/captures/yomi-sirlin.png",
+      "alt": "Direct webpage capture of the Yomi section in David Sirlin's Playing to Win chapter, including the Yomi Layers heading.",
+      "credit": "David Sirlin, Playing to Win",
+      "qualification_note": "The official page displays 2014-08-03 and was captured directly on 2026-07-26. Conceptual adjacency to Meso remains interpretive."
+    },
+    {
+      "id": "ARC-MICRO-MACRO-TL",
+      "title": "Mechanics of StarCraft: Micro and Macro",
+      "creator": "TeamLiquid community",
+      "platform": "TeamLiquid",
+      "source_type": "community strategy guide",
+      "source_date": "2009-11-02",
+      "capture_date": "2026-07-26",
+      "source_url": "https://tl.net/forum/bw-strategy/104910-mechanics-of-starcraft",
+      "capture_path": "assets/captures/micro-macro-teamliquid.png",
+      "alt": "Direct webpage capture of the TeamLiquid guide's Micro, Macro and Multitasking section.",
+      "credit": "TeamLiquid community",
+      "qualification_note": "The official guide was captured directly on 2026-07-26. Earlier use is documented; direct influence on Surnex is not established."
+    },
+    {
+      "id": "ARC-A1-ARCHIVE-METHOD",
+      "title": "Assessment 1 archive workflow",
+      "creator": "Project author",
+      "platform": "Assessment 1 portfolio",
+      "source_type": "submitted portfolio method panel",
+      "source_date": "2026-07",
+      "capture_date": "2026-07-25",
+      "source_url": null,
+      "capture_path": "assets/captures/a1-archive-method.png",
+      "alt": "Assessment 1 archive workflow showing source capture, metadata, coding and reflexive selection notes.",
+      "credit": "Project author, Assessment 1 portfolio",
+      "qualification_note": "This local source has no public URL. The screenshot documents the author's method and positioned corpus; it does not make the wider 62-item archive exhaustive or neutral."
+    },
+    {
+      "id": "ARC-A1-NETNOGRAPHY",
+      "title": "Assessment 1 netnography evidence",
+      "creator": "Project author",
+      "platform": "Assessment 1 portfolio",
+      "source_type": "submitted portfolio netnography panel",
+      "source_date": "2026-07",
+      "capture_date": "2026-07-25",
+      "source_url": null,
+      "capture_path": "assets/captures/a1-netnography.png",
+      "alt": "Assessment 1 netnography panel recording five anonymised or paraphrased community excerpts, their thematic codes and the ethics note.",
+      "credit": "Project author, Assessment 1 portfolio; public contributions anonymised or paraphrased",
+      "qualification_note": "This local source has no public URL. It records the paraphrases and coding retained in the submitted portfolio; the framework artefacts discussed by those contributions remain separate subject records."
+    },
+    {
+      "id": "ARC-DUSTLOOP-FRAME-DATA",
+      "title": "Sol Badguy frame data",
+      "creator": "Dustloop Wiki contributors",
+      "platform": "Dustloop Wiki",
+      "source_type": "community wiki frame-data table",
+      "source_date": null,
+      "capture_date": "2026-07-26",
+      "source_url": "https://www.dustloop.com/w/GGST/Sol_Badguy/Frame_Data",
+      "capture_path": "assets/captures/dustloop-frame-data.png",
+      "alt": "Dustloop Sol Badguy frame-data table showing startup, active, recovery and advantage values.",
+      "credit": "Dustloop Wiki contributors",
+      "qualification_note": "An exact publication date for this table was not established by the corpus. The image is a direct capture of the named public page taken on 2026-07-26."
+    },
+    {
+      "id": "ARC-SPAWNING-TOOL-BUILD",
+      "title": "Beginner Terran Build Order Guide (2023) By Probe (TvX Economic)",
+      "creator": "Kenosua",
+      "platform": "Spawning Tool",
+      "source_type": "community build-order page",
+      "source_date": "2023-09-24",
+      "capture_date": "2026-07-26",
+      "source_url": "https://lotv.spawningtool.com/build/179524/",
+      "capture_path": "assets/captures/spawning-tool-build-order.png",
+      "alt": "Spawning Tool StarCraft II build-order page listing a timed sequence of structures, units and actions.",
+      "credit": "Kenosua; hosted by Spawning Tool",
+      "qualification_note": "The official page lists Kenosua as creator and Sep 24, 2023 as both publication and modification date. The direct live-page capture was taken on 2026-07-26. The title phrase 'By Probe' is retained as displayed, but is not treated as the creator credit because the page separately identifies Kenosua. The format externalises a planned sequence but cannot by itself document how play adapts to disruption."
+    },
+    {
+      "id": "ARC-TOTAL-CS-MIRAGE",
+      "title": "Mirage callout map",
+      "creator": "Total CS",
+      "platform": "Total CS",
+      "source_type": "annotated community callout map",
+      "source_date": null,
+      "capture_date": "2026-07-26",
+      "source_url": "https://totalcsgo.com/callouts/mirage",
+      "capture_path": "assets/captures/total-cs-callout-map.png",
+      "alt": "Total CS Mirage map annotated with shared location names used for team callouts.",
+      "credit": "Total CS",
+      "qualification_note": "An exact publication date for this map was not established by the corpus. The image is a direct capture of the map asset linked from the named public page, taken on 2026-07-26. The map documents named spatial conventions, not the timing, intent or communication quality of actual play."
+    }
+  ]
+}

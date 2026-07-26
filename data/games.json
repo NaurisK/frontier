@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "games": [
+    {
+      "id": "starcraft-brood-war",
+      "name": "StarCraft: Brood War",
+      "scope_label": "StarCraft: Brood War",
+      "genre": "real-time strategy",
+      "play_problem": "coordinating local mechanical execution, multitasking, economy and longer-term strategic control",
+      "player_question": "How do I balance precise unit control and multitasking with economy and longer-term strategy?",
+      "reduction": "Micro/Macro vocabulary",
+      "supported_action": "diagnose and discuss local execution in relation to broader strategic control",
+      "interpretive_synthesis": true,
+      "archive_ids": ["ARC-MICRO-MACRO-TL"],
+      "related_lineage_ids": ["micro-macro"],
+      "related_format_ids": []
+    },
+    {
+      "id": "starcraft-ii",
+      "name": "StarCraft II",
+      "scope_label": "StarCraft II",
+      "genre": "real-time strategy",
+      "play_problem": "executing a planned opening while scouting, adapting and recovering from disruption",
+      "player_question": "What should I build and when, and when must I depart from the planned sequence?",
+      "reduction": "build order",
+      "supported_action": "rehearse an opening and compare in-game progress with planned milestones",
+      "interpretive_synthesis": true,
+      "archive_ids": ["ARC-SPAWNING-TOOL-BUILD"],
+      "related_lineage_ids": [],
+      "related_format_ids": ["build-order"]
+    },
+    {
+      "id": "guilty-gear-strive",
+      "name": "Guilty Gear Strive",
+      "scope_label": "Guilty Gear Strive",
+      "genre": "fighting game",
+      "play_problem": "judging whether an attack leaves enough time to retaliate while accounting for spacing, pressure and execution",
+      "player_question": "After this move, is there enough time to retaliate?",
+      "reduction": "frame-data table",
+      "supported_action": "reason about punish windows and frame advantage",
+      "interpretive_synthesis": true,
+      "archive_ids": ["ARC-DUSTLOOP-FRAME-DATA"],
+      "related_lineage_ids": ["yomi-reads"],
+      "related_format_ids": ["frame-data"]
+    },
+    {
+      "id": "counter-strike-mirage",
+      "name": "Counter-Strike: Mirage",
+      "scope_label": "Counter-Strike: Mirage",
+      "genre": "tactical first-person shooter",
+      "play_problem": "coordinating locations, movement and team communication through a shared spatial vocabulary",
+      "player_question": "What location do we mean, and how can the team refer to it quickly?",
+      "reduction": "callout map",
+      "supported_action": "name locations consistently during team communication",
+      "interpretive_synthesis": true,
+      "archive_ids": ["ARC-TOTAL-CS-MIRAGE"],
+      "related_lineage_ids": [],
+      "related_format_ids": ["callout-map"]
+    },
+    {
+      "id": "cross-game-classification",
+      "name": "Cross-game classification",
+      "scope_label": "competitive games across genres",
+      "genre": null,
+      "play_problem": "comparing which dimensions of competitive skill different games appear to emphasise",
+      "player_question": "Which dimensions of competitive skill does this game appear to emphasise?",
+      "reduction": "Surnex taxonomy diagram and Player Type adaptation",
+      "supported_action": "compare and debate games through shared skill categories",
+      "interpretive_synthesis": true,
+      "archive_ids": ["ARC-SURNEX-DIAGRAM", "ARC-PLAYERTYPE-METHOD"],
+      "related_lineage_ids": ["surnex-playertype"],
+      "related_format_ids": ["taxonomy-diagram"]
+    }
+  ]
+}

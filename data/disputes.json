@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "disputes": [
+    {
+      "id": "dispute-micro-membership",
+      "excerpt": "A viewer applies Micro, Meso and Macro as overlapping memberships rather than mutually exclusive categories.",
+      "participation": "application",
+      "evidence_status": "documented",
+      "attached_to": ["micro-macro", "surnex-playertype", "taxonomy-diagram"],
+      "archive_ids": ["ARC-A1-NETNOGRAPHY"],
+      "subject_archive_ids": ["ARC-SURNEX-DIAGRAM"],
+      "source_date": null,
+      "capture_date": "2026-07-25",
+      "source_capture_window": "2026-06/2026-07",
+      "paraphrased": true,
+      "anonymised": true,
+      "note": "Paraphrased and anonymised from public community discussion sampled across the documented June–July 2026 collection window in Assessment 1; the exact source date was not retained. The attached interpretation asks whether diagram position means membership, balance or intensity."
+    },
+    {
+      "id": "dispute-knowledge-skill",
+      "excerpt": "A viewer disputes whether fighting games contain a knowledge-based dimension of skill.",
+      "participation": "dispute",
+      "evidence_status": "documented",
+      "attached_to": ["yomi-reads", "surnex-playertype", "taxonomy-diagram"],
+      "archive_ids": ["ARC-A1-NETNOGRAPHY"],
+      "subject_archive_ids": ["ARC-SURNEX-DIAGRAM", "ARC-YOMI-SIRLIN"],
+      "source_date": null,
+      "capture_date": "2026-07-25",
+      "source_capture_window": "2026-06/2026-07",
+      "paraphrased": true,
+      "anonymised": true,
+      "note": "Paraphrased and anonymised from public community discussion sampled across the documented June–July 2026 collection window in Assessment 1; the exact source date was not retained. The contribution records disagreement rather than authoritative correction."
+    },
+    {
+      "id": "dispute-personal-taste",
+      "excerpt": "A viewer uses the framework to reinterpret a personal dislike of games centred on Micro.",
+      "participation": "personalisation",
+      "evidence_status": "documented",
+      "attached_to": ["micro-macro", "taxonomy-diagram"],
+      "archive_ids": ["ARC-A1-NETNOGRAPHY"],
+      "subject_archive_ids": ["ARC-SURNEX-DIAGRAM"],
+      "source_date": null,
+      "capture_date": "2026-07-25",
+      "source_capture_window": "2026-06/2026-07",
+      "paraphrased": true,
+      "anonymised": true,
+      "note": "Paraphrased and anonymised from public community discussion sampled across the documented June–July 2026 collection window in Assessment 1; the exact source date was not retained. It shows the framework becoming a lens on taste rather than a measurement of games."
+    },
+    {
+      "id": "dispute-extension",
+      "excerpt": "Player Type describes extending Surnex's original game set with custom additions and its own archetype labels.",
+      "participation": "extension",
+      "evidence_status": "documented",
+      "attached_to": ["surnex-playertype", "taxonomy-diagram"],
+      "archive_ids": ["ARC-A1-NETNOGRAPHY", "ARC-PLAYERTYPE-METHOD"],
+      "subject_archive_ids": ["ARC-SURNEX-DIAGRAM", "ARC-PLAYERTYPE-METHOD"],
+      "source_date": null,
+      "capture_date": "2026-07-25",
+      "source_capture_window": "2026-07-25",
+      "paraphrased": true,
+      "anonymised": false,
+      "note": "This is a paraphrase of the named public Player Type methodology page, so anonymisation is not applicable. A separate exact publication date was not established; counts and wording are treated as version-dependent at the capture date."
+    },
+    {
+      "id": "dispute-placement-criteria",
+      "excerpt": "A recurring play pattern across several games is collapsed into one archetype.",
+      "participation": "simplification",
+      "evidence_status": "interpretive",
+      "attached_to": ["surnex-playertype", "taxonomy-diagram"],
+      "archive_ids": ["ARC-A1-NETNOGRAPHY"],
+      "subject_archive_ids": ["ARC-SURNEX-DIAGRAM", "ARC-PLAYERTYPE-METHOD"],
+      "source_date": null,
+      "capture_date": "2026-07-25",
+      "source_capture_window": "2026-06/2026-07",
+      "paraphrased": true,
+      "anonymised": true,
+      "note": "Paraphrased and anonymised from public community discussion sampled across the documented June–July 2026 collection window in Assessment 1; the exact source date was not retained. Identifying this as simplification is the project author's netnographic interpretation."
+    }
+  ]
+}

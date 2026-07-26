@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frontier — a connective visual atlas for gaming skill frameworks</title>
+  <meta name="description" content="Frontier traces how gaming communities make competitive skill teachable, where those visual frameworks came from, and what each representation leaves out.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="#home" aria-label="Frontier home">FRONTIER</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+        <span class="nav-toggle-mark" aria-hidden="true">☰</span>
+        <span>Menu</span>
+      </button>
+      <nav class="main" id="primary-nav" aria-label="Primary">
+        <a href="#home">home</a>
+        <a href="#games">games</a>
+        <a href="#lineages">lineages</a>
+        <a href="#atlas">reduction atlas</a>
+        <a href="#compare">compare</a>
+        <a href="#workspace">workspace</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1" data-route-host>
+    <section class="hero" id="home" data-screen="home">
+      <div class="coords" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Connective visual atlas · M7004R Re:Form</p>
+        <h1 data-route-heading>How gaming communities make skill teachable.</h1>
+        <p class="thesis">Competitive play is situated and dynamic. Communities compress it into diagrams, tables, maps and interfaces that circulate, mutate and are disputed across platforms. Frontier connects selected lineages, contributors and reduction trade-offs without claiming to replace the communities that produced them.</p>
+        <div class="two-col">
+          <div>
+            <h2>Research question</h2>
+            <p>How might a connective visual atlas make the provenance, adaptation and omissions of competitive-game skill frameworks visible while preserving the simplification that makes them useful?</p>
+          </div>
+          <div>
+            <h2>Who it is for</h2>
+            <p><strong>Primary audience:</strong> community guide creators, wiki contributors, coaches and analysts who produce or maintain gaming knowledge resources.</p>
+            <p><strong>Secondary audience:</strong> players and researchers interested in how competitive skill is represented. The principal route is also written to remain understandable to a viewer without specialist gaming knowledge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="games" data-screen="games">
+      <div class="wrap">
+        <p class="eyebrow">01 — Games</p>
+        <h2 data-route-heading tabindex="-1">Games</h2>
+        <p class="lead">Start with the play problem. Each case connects a game to the visual reduction players use, the action it supports, and the evidence preserved in Frontier.</p>
+        <div id="games-grid" class="game-grid" data-games-host></div>
+      </div>
+    </section>
+
+    <section class="screen" id="lineages" data-screen="lineages">
+      <div class="wrap">
+        <p class="eyebrow">02 — Lineage map</p>
+        <h2>Three frameworks and their documented and interpretive connections</h2>
+        <p class="lead">Each entry distinguishes documented evidence from interpretation, then shows what the framework makes visible, what it simplifies, and which disputes are attached to it.</p>
+        <div id="lineage-grid" class="card-grid" data-lineage-host></div>
+      </div>
+    </section>
+
+    <section class="screen" id="atlas" data-screen="atlas">
+      <div class="wrap">
+        <p class="eyebrow">03 — Reduction atlas</p>
+        <h2>Different ways of making skill inspectable</h2>
+        <p class="lead">A taxonomy diagram, frame-data table, build order and callout map each externalise a different dimension of competitive knowledge. Every format is a trade.</p>
+        <div id="format-grid" class="card-grid" data-format-host></div>
+      </div>
+    </section>
+
+    <section class="screen" id="entry" data-screen="entry" data-entry-host hidden>
+      <div class="wrap">
+        <p class="eyebrow">Entry detail</p>
+        <h2>Selected framework or visual format</h2>
+        <div id="entry-detail" data-entry-detail></div>
+      </div>
+    </section>
+
+    <section class="screen" id="compare" data-screen="compare">
+      <div class="wrap">
+        <p class="eyebrow">04 — Curated comparison</p>
+        <h2>Read the reductions side by side</h2>
+        <p class="lead">The comparison asks what kind of skill is externalised, what appears authoritative, what prior knowledge is assumed, what uncertainty is removed, and what action the viewer is invited to take.</p>
+        <div id="comparison-host" data-comparison-host></div>
+      </div>
+    </section>
+
+    <section class="screen" id="workspace" data-screen="workspace">
+      <div class="wrap">
+        <p class="eyebrow">05 — Workspace</p>
+        <h2>Build a comparison</h2>
+        <p class="lead">Add frameworks and formats to a temporary matrix, read their trade-offs together, and export the visible rows as portable JSON. Workspace changes are not saved after a refresh.</p>
+        <div class="workspace-bar">
+          <button class="btn btn-primary" id="ws-export" type="button">Export JSON</button>
+          <button class="btn" id="ws-clear" type="button">Clear comparison</button>
+        </div>
+        <p class="visually-hidden" id="ws-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div id="ws-tray" class="chip-tray" aria-label="Available comparison entries"></div>
+        <div id="ws-matrix" class="matrix-wrap" tabindex="0" role="region" aria-label="Workspace comparison table"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>Frontier · M7004R Re:Form · Student ID 25000150867</span>
+      <span>Expanded method, source credits and AI declaration: <a href="./README.md">README</a></span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
